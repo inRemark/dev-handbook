@@ -1,0 +1,116 @@
+# Project information
+site_name: 'InRemark'
+site_description: 'The Documentations of InRemark'
+site_author: 'InRemark'
+site_url: 'http://inremark.com'
+edit_uri: 
+
+# Repository
+repo_name: 'RetroPie-Setup'
+repo_url: 'https://github.com/RetroPie/RetroPie-Setup'
+
+# Copyright
+copyright: 'Copyright &copy; 2024 InRemark'
+
+# Plugins
+plugins:
+  - search
+  # - alternate-link
+
+# Extensions
+markdown_extensions:
+  - mdx_truly_sane_lists
+  - md_in_html
+  - pymdownx.highlight:
+      use_pygments: true
+  - pymdownx.superfences
+  - pymdownx.keys
+
+# Configuration
+theme:
+  name: 'material'
+  language: 'en'
+  logo: 'images/logo.png'
+  favicon: 'images/logo.png'
+  font: false
+  features:
+    - navigation.top
+    - content.action.edit
+    - content.code.copy
+    - search.highlight
+    - search.suggest
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/lightbulb
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      accent: red
+      primary: red
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to light mode
+
+# Customisation
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/RetroPie
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/retropieproject
+
+extra_css:
+  - 'stylesheets/extra.css'
+
+# Google Analytics
+# google_analytics:
+  # - 'UA-XXXXX-X'
+  # - 'auto'
+
+nav:
+- Home: index.md
+- First Installation: First-Installation.md
+- GitLab:
+    - GitLab CE 高可用方案: gitlab/ha-solution-for-gitlab-ce.md
+    - GitLab CE 高可用安装: gitlab/gitlab-ce-ha-install.md
+    - GitLab 备份和恢复: gitlab/gitlab-backup-and-restore.md
+    - GitLab 单机迁移到多节点: gitlab/gitlab-standalone-to-multi-node.md
+    - GitLab 多节点升级: gitlab/gitlab-multi-node-upgrade.md
+    - 常见问题: gitlab/gitlab-faq.md
+- Zookeeper:
+    - Zookeeper Install: zookeeper/zookeeper-install.md
+    - Zookeeper Cluster Install: zookeeper/zookeeper-cluster-install.md
+    - Zookeeper 常见问题: zookeeper/zookeeper-faq.md
+    - Validating, Rebuilding, and Filtering Arcade ROMs: Validating,-Rebuilding,-and-Filtering-ROM-Collections.md
+- Kafka:
+    - Kafka Install: kafka/kafka-install.md
+    - Kafka Cluster Install: kafka/kafka-cluster-install.md
+    - Kafka 常见问题: kafka/kafka-faq.md
+- Ports:
+    - Adventure Game Studio: Adventure-Game-Studio.md
+    - Cannonball: Cannonball.md
+- Controllers:
+    - Xbox 360: Xbox-360-Controller.md
+    - PS3: PS3-Controller.md
+- Advanced Configuration:
+    - Configuration Editor: Configuration-Editor.md
+    - Input Lag: Input-Lag.md
+- RetroArch:
+    - RetroArch: RetroArch.md
+    - RetroArch Controller Configuration: RetroArch-Configuration.md
+- EmulationStation:
+    - EmulationStation: EmulationStation.md
+    - Scraper: Scraper.md
+    - Themes: Themes.md
+- Platforms:
+    - Raspberry Pi: Manual-Installation.md
+    - Pi 4: Pi4.md
+- Troubleshooting:
+    - FAQ: FAQ.md
+- Developers:
+    - Convert RetroPie SD Card Image to NOOBS Image: Convert-RetroPie-SD-Card-Image-to-NOOBS-Image.md
+    - Shell Style Guide: Shell-Style-Guide.md
+- About:
+    - Changelogs: Changelogs.md

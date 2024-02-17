@@ -1,0 +1,1 @@
+# HA Solution for GitLab CE
