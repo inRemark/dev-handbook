@@ -1,13 +1,13 @@
 # Project information
-site_name: 'InRemark'
+site_name: 'Dev Handbook'
 site_description: 'The Documentations of InRemark'
 site_author: 'InRemark'
 site_url: 'http://inremark.com'
 edit_uri: 
 
 # Repository
-repo_name: 'RetroPie-Setup'
-repo_url: 'https://github.com/RetroPie/RetroPie-Setup'
+repo_name: 'dev-handbook'
+repo_url: 'https://github.com/inRemark/dev-handbook'
 
 # Copyright
 copyright: 'Copyright &copy; 2024 InRemark'
@@ -57,9 +57,9 @@ theme:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/RetroPie
+      link: https://github.com/inRemark/dev-handbook
     - icon: fontawesome/brands/twitter
-      link: https://twitter.com/retropieproject
+      link: https://twitter.com/sentisystem
 
 extra_css:
   - 'stylesheets/extra.css'
