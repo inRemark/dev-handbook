@@ -18,12 +18,23 @@
     --md-code-font: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
 }
 
+.md-typeset img {
+  width: 100%;
+  padding:1.2rem 0;
+  height: auto;
+  
+}
+
+
 .md-typeset table:not([class]) th:not([align]){text-align:left}.md-typeset table:not([class]) th{
   min-width:10rem;
+  width:100%;
   padding:1.2rem 1.6rem;
   background-color:rgba(0, 0, 0, 1);
   color:#fff;
-  vertical-align:top
+  /* color:#333; */
+  vertical-align:top;
+  margin: 1.6rem auto;
 }
 
 .md-typeset a {

@@ -76,7 +76,7 @@ nav:
     - GitLab CE 高可用方案: gitlab/ha-solution-for-gitlab-ce.md
     - GitLab CE 高可用安装: gitlab/gitlab-ce-ha-install.md
     - GitLab 备份和恢复: gitlab/gitlab-backup-and-restore.md
-    - GitLab 单机迁移到多节点: gitlab/gitlab-standalone-to-multi-node.md
+    - GitLab 单机迁移到多节点: gitlab/gitlab-standalone-to-gitlab-ha.md
     - GitLab 多节点升级: gitlab/gitlab-multi-node-upgrade.md
     - 常见问题: gitlab/gitlab-faq.md
 - Zookeeper:
